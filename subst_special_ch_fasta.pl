@@ -13,7 +13,8 @@ while(<$fh>){
 #Match non-spacce characters and keep them as the id value
     if($_ =~ /^>(\S+)/ ){
         $id = $1;
-        $id =~ s/[^a-zA-Z0-9,]//g;
+#Remove any special characters
+    $id =~ s/[^a-zA-Z0-9,]//g;
         $seqs{$id} = "";
         next;
     }
