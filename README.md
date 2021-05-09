@@ -4,7 +4,6 @@ All the well written scripts I have written along with the help of LMJ for my Ph
 ### follow_alignment_progress 
 
 This directory contains two files, "use_align_speed.sh" and "align_speed.sh".
-
 The commands were written to follow the progress of the alignment output. 
 
 The command **"align_speed.sh"** outputs the line number it currently processes in the FASTA file.
