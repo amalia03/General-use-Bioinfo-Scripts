@@ -1,7 +1,7 @@
 # General-use-Bioinfo-Scripts
 All the well written scripts I have written along with the help of LMJ for my PhD project
 
-###follow_alignment_progress
+### follow_alignment_progress 
 
 This directory contains two files, "use_align_speed.sh" and "align_speed.sh". 
 The commands were written to follow the progress of the alignment output. 
