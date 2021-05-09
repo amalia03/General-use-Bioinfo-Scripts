@@ -1,5 +1,5 @@
 # General-use-Bioinfo-Scripts
-All the well written scripts I have written along with the help of LMJ for my PhD project
+Some small but useful scripts I have written along with the help of LMJ during my PhD. 
 
 ### follow_alignment_progress 
 
