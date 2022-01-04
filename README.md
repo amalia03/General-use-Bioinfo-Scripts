@@ -12,6 +12,10 @@ The command **"use_align_speed.sh"** initates the second command every n hours f
 
 ######
 
+**subst_special_ch_fasta.pl**
+
+If a FASTA id has unwanted special characters, this script removes them. 
+
 **get_fasta_nucl.fa** 
 
 Short code that return the total nucleotide proportion of a FASTA file. Generally quite useless but it was used for the purposes of making random fasta sequences based on the
