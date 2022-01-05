@@ -17,7 +17,7 @@ The command **"use_align_speed.sh"** initates the second command every n hours f
 If a FASTA id has unwanted special characters, this script removes them. 
 
 
-**count_lengths.sh**
+**count_fa_lengths.pl**
 
 Count the lengths of all fasta files and outputs them along with the fasta id in a tabular format. 
 
