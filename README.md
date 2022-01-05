@@ -16,7 +16,16 @@ The command **"use_align_speed.sh"** initates the second command every n hours f
 
 If a FASTA id has unwanted special characters, this script removes them. 
 
-**get_fasta_nucl.fa** 
+
+**count_lengths.sh**
+
+Count the lengths of all fasta files and outputs them along with the fasta id in a tabular format. 
+
+**get_fasta_nucl.pl** 
 
 Short code that return the total nucleotide proportion of a FASTA file. Generally quite useless but it was used for the purposes of making random fasta sequences based on the
 length of the sequences in the FASTA file and the general nucleotde proportion. 
+
+**rand_fa.R**
+
+An R script that creates ten randomized replicates based on the length of each sequence, using the nucleotide weights of a FASTA file. Requires a file that contains the nucleotide proportion of the FASTA file in question (the output from get_fasta_nucl.pl) and the lengths and id of each replicated FASTA sequence (outputed by the count_lengths.sh command).
