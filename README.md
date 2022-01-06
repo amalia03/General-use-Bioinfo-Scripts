@@ -31,3 +31,7 @@ length of the sequences in the FASTA file and the general nucleotde proportion.
 **rand_fa.R**
 
 An R script that creates ten randomized replicates based on the length of each sequence, using the nucleotide weights of a FASTA file. Requires a file that contains the nucleotide proportion of the FASTA file in question (the output from get_fasta_nucl.pl) and the lengths and id of each replicated FASTA sequence (outputed by the count_lengths.sh command).
+
+**find_matching_ids_fastas.pl**
+
+This script is useful when you have two different FASTA files with matching sequences and you want to extract the mutual sequences (aka same id, if the sequences between the two files are different, it will report only the second sequence) between the two files. 
