@@ -35,3 +35,7 @@ An R script that creates ten randomized replicates based on the length of each s
 **find_matching_ids_fastas.pl**
 
 This script is useful when you have two different FASTA files with matching sequences and you want to extract the mutual sequences (aka same id, if the sequences between the two files are different, it will report only the second sequence) between the two files. 
+
+**print_undefined_fqs.pl**
+
+This script reads a list of ids that you do not want to include in your final fastq output. Inputs are a single column of ids and a fastq file. This is a more elegantly written version of find_matching_ids_fastas.pl written by MLJ. Worth coming back to since it is a pretty flexible syntax. 
