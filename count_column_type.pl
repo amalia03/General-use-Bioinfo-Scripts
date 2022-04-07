@@ -20,7 +20,6 @@ while(<$fh>){
     }
 }
 
-foreach $id (keys %type){
-#foreach $id (sort {$a <=> $b} values %count){
+foreach $id (sort {$count{$b} <=> $count{$a} } keys %count){     
     print $type{$id},"\t", $count{$id}, "\n";
 }
