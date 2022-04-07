@@ -42,4 +42,4 @@ This script reads a list of ids that you do not want to include in your final fa
 
 **count_column_type.pl**
 
-A simple per script which takes in the column of interest and counts the number of times a particular unique value is contained in that column. Requires a file in tabular, headless format (eg BLAST) and the column number of interest (column number -1 since it is perl). Current version does not sort the values.  
+A simple per script which takes in the column of interest and counts the number of times a particular unique value is contained in that column. Requires a file in tabular, headless format (eg BLAST) and the column number of interest (column number -1 since it is perl). 
