@@ -39,3 +39,7 @@ This script is useful when you have two different FASTA files with matching sequ
 **print_undefined_fqs.pl**
 
 This script reads a list of ids that you do not want to include in your final fastq output. Inputs are a single column of ids and a fastq file. This is a more elegantly written version of find_matching_ids_fastas.pl written by MLJ. Worth coming back to since it is a pretty flexible syntax. 
+
+**count_column_type.pl**
+
+A simple per script which takes in the column of interest and counts the number of times a particular unique value is contained in that column. Requires a file in tabular, headless format (eg BLAST) and the column number of interest (column number -1 since it is perl). Current version does not sort the values.  
