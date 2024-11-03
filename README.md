@@ -11,6 +11,7 @@ The command **"align_speed.sh"** outputs the line number it currently processes 
 The command **"use_align_speed.sh"** initates the second command every n hours for a total t hours (default are 3 and 120 respectively). 
 
 ----------
+##List of scripts
 
 - **bash_array_in_loops.sh** 
 
