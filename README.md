@@ -25,6 +25,10 @@ A simple per script which takes in the column of interest and counts the number 
 
 Count the lengths of all fasta files and outputs them along with the fasta id in a tabular format. 
 
+- **decimal_change.pl**
+
+Change decimals in a tabulated file. Made to change the decimal places for nwk. 
+
 - **fetch_files.sh**
 
 Fetches SRA entries from NCBI. 
