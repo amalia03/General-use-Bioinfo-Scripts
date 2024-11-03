@@ -42,6 +42,10 @@ This script is useful when you have two different FASTA files with matching sequ
 Short code that return the total nucleotide proportion of a FASTA file. Generally quite useless but it was used for the purposes of making random fasta sequences based on the
 length of the sequences in the FASTA file and the general nucleotde proportion. 
 
+- **nless_seqs.pl**
+
+Removes all the Ns from FASTA sequences. Use with caution. 
+
 - **print_undefined_fqs.pl**
 
 This script reads a list of ids that you do not want to include in your final fastq output. Inputs are a single column of ids and a fastq file. This is a more elegantly written version of find_matching_ids_fastas.pl written by MLJ. Worth coming back to since it is a pretty flexible syntax. 
