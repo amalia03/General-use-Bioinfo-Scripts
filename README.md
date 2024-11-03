@@ -47,3 +47,7 @@ A simple per script which takes in the column of interest and counts the number 
 **fetch_files.sh**
 
 Fetches SRA entries from NCBI. 
+
+**bash_array_in_loops.sh** 
+
+Takes a set of files in a directory, adds them in an array and loops them through a command.
